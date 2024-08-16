@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+}
+
+.container{
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+input{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #323232;
+    border: none;
+}
+
+button{
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: #323232;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
